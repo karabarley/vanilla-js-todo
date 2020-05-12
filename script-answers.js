@@ -58,14 +58,16 @@ form.addEventListener('submit', event => {
     });
   });
 
-  const deleteButtons = document.querySelectorAll('.delete-todo');
-  // Nodelist methods: https://developer.mozilla.org/en-US/docs/Web/API/NodeList
-  deleteButtons.forEach((deleteButton, index) => {
-    deleteButton.addEventListener('click', event => {
-      event.stopPropagation();
-      console.log('clicked')
+  // 3. DELETE TO-DO ITEMS (HOMEWORK - Follow the article)
+    const deleteButtons = document.querySelectorAll('.delete-todo');
+    // Nodelist methods: https://developer.mozilla.org/en-US/docs/Web/API/NodeList
+    deleteButtons.forEach((deleteButton, index) => {
+      deleteButton.addEventListener('click', event => {
+        event.stopPropagation();
+        console.log('clicked')
+      });
     });
-  });
 });
 
-// 3. DELETE TO-DO ITEMS (HOMEWORK)
+
+
