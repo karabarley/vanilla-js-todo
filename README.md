@@ -20,6 +20,9 @@
 - DOM Manipulation
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents
 
+- Event Listeners 
+https://developer.mozilla.org/en-US/docs/Web/API/Event
+
 
 ## Project: Vanilla-JS TO-DO
 We'll start by going over this exercise but make some slight modifications:
