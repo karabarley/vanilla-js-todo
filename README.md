@@ -7,8 +7,9 @@
 
 ## Topics to go over
 - Functions & ES6
-  - Ternary
   - Arrow functions and the 'this' keyword
+  - Ternary
+  - Template strings
 - Arrays & Objects
   - Array Methods
   - .map()
@@ -26,7 +27,7 @@ Once the user adds a task, we’ll push a new todo object into the array and ren
 
 2. Check off to-do item off
 When the user completes a todo by checking it off,
-we will toggle a class of 'completed' to the to-do item,
+we will toggle a class of 'done' to the to-do item,
 (which will in turn toggle the checked property for the item to true)
 
 3. Delete to-do item off
